@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans Thai", sans-serif;
+}
+
+input {
+    text-align: left;
+    border: 0;
+    background-color: whitesmoke;
+    padding: 4px 8px;
+    border-radius: 8px;
+}
+
+button {
+    border: 0;
+    color: white;
+    background-color: rgb(71, 71, 255);
+    padding: 4px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.my-title {
+    margin-top: 32px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.my-profile {
+    margin-top: 12px;
+}
+
+.my-profile img {
+    border-radius: 360px;
+}
+
+.my-profile .noti {
+    background-color: red;
+    width: 24px;
+    height: 24px;
+    border-radius: 360px;
+    position: relative;
+    top: -36px;
+    left: 56px;
+    color: white;
+    font-size: small;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.my-panel {
+    margin-top: -16px;
+}
+
+.my-panel * {
+    margin: 4px 8px;
+}
+
+.my-phone {
+    margin-top: 12px;
+}
+
+.my-phone .contact {
+    margin-top: 12px;
+    width: 86%;
+    display: grid;
+    grid-template-columns: 40% 40% 10% 10%;
+}
+
+.my-phone .contact *:not(button) {
+    width: 95%;
+}
+
+.my-phone label {
+    font-weight: bold;
+}
+
+.my-phone .datalist {
+    width: 88%;
+    margin-top: 24px;
+}
+
+.my-phone .datalist table {
+    width: 100%;
+    margin: 0;
+}
+
+.my-phone .datalist table * {
+    text-align: left;
+}
+
+.my-phone .datalist th, .my-phone .datalist td {
+    padding: 6px 16px;
+}
+
+.my-phone .datalist .first-tr {
+    background-color: rgb(206, 206, 206);
+    border-bottom: 1px solid black;
+}
+
+.my-phone .datalist th {
+    border-bottom: 1px solid gray;
+}
+
+.my-phone .datalist td {
+    border-bottom: 1px solid rgb(206, 206, 206);
+}

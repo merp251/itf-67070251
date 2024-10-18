@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="my-title" class="my-title">
+        prem
+    </div>
+    <div class="my-profile">
+        <img src="https://ew.com/thmb/R3EIUWnL1fLjgAoxtmBpWrGbAz0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/cartoon-network-tout-102923-5ce4eb0480134dbaa5e7941d83d83770.jpg" width="183" height="183"
+            id="img-profile" />
+        <div class="noti">
+            1
+        </div>
+    </div>
+    <div class="my-panel">
+        <div class="my-grid">
+            <label for="userName">
+                Set the Username:
+            </label>
+            <input type="text" id="userName" name="userName" placeholder="Enter Username">
+            <button type="button" onclick="setuserName()">SET</button>
+        </div>
+        <div class="my-grid">
+            <label for="imgURL">
+                Set the profile image URL:
+            </label>
+            <input type="text" id="imgURL" name="imgURL" placeholder="Enter Image URL">
+            <button type="button" onclick="setProfile()">SET</button>
+        </div>
+    </div>
+    <div class="my-phone">
+        <label>
+            Phone Number List
+        </label>
+        <div class="contact">
+            <input type="text" id="addName" placeholder="Name" />
+            <input type="tel" id="addTel" placeholder="Tel" />
+            <button type="button" onclick="addContact()">ADD</button>
+            <button type="button" onclick="exportCSV()">EXPORT</button>
+        </div>
+        <div class="datalist">
+            <table id="my-table" cellspacing="0" cellpadding="0">
+                <tr class="first-tr">
+                    <th width="35%">
+                        No.
+                    </th>
+                    <th width="35%">
+                        Name
+                    </th>
+                    <th width="30%">
+                        Phone Number
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        1
+                    </td>
+                    <td>
+                        Hello Kitty
+                    </td>
+                    <td>
+                        0987654321
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
